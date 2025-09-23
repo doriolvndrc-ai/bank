@@ -33,7 +33,7 @@ main {
 /* === Zone cliquable sur "Épargne" === */
 .click-zone {
   position: absolute;
-  top: 55px;       /* distance du haut */
+  top: 50px;       /* distance du haut */
   left: 140px;     /* distance du bord gauche (33% de 430px) */
   width: 80px;     /* largeur du mot */
   height: 40px;    /* hauteur du mot */
