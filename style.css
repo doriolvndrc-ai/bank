@@ -45,8 +45,8 @@ main {
 /* === Zone cliquable sur "Comptes" dans epargne.png === */
 .click-zone.comptes {
   position: absolute;
-  top: 55px;     /* ajuste selon la position du mot "Comptes" */
-  left: 25px;    /* distance du bord gauche */
+  top: 50px;     /* ajuste selon la position du mot "Comptes" */
+  left: 15px;    /* distance du bord gauche */
   width: 80px;   /* largeur du mot */
   height: 40px;  /* hauteur du mot */
   z-index: 2;
