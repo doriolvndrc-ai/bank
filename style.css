@@ -1,27 +1,78 @@
 body {
   margin: 0;
-  background-color: #000;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
   color: white;
 }
 
-.nav-image {
-  width: 100%;
-  display: block;
-}
-
-.full-width {
-  width: 100%;
-  display: block;
-  margin-bottom: 10px;
+header, footer {
+  background-color: #1e1e1e;
+  padding: 10px;
 }
 
 .top-nav, .bottom-nav {
-  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.tab, .nav-item {
+  padding: 8px 12px;
+  color: #ccc;
+}
+
+.tab.active, .nav-item.active {
+  color: #00ffff;
+  border-bottom: 2px solid #00ffff;
+}
+
+.account-summary {
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.account-number {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.balance {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.green {
+  color: #00ff99;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #1a1a1a;
+}
+
+.action-button {
+  background-color: #2a2a2a;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+  font-size: 13px;
+}
+
+.transactions {
+  padding: 20px;
+}
+
+.transactions ul {
+  list-style: none;
   padding: 0;
 }
 
-main {
-  padding: 0;
+.transactions li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
 }
 
