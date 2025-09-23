@@ -1,77 +1,38 @@
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #121212;
-  color: white;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compte Principal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="greeting">Bonsoir Valentin</div>
+    <nav class="top-nav">
+      <img src="images/nav-comptes.png" alt="Navigation Comptes" class="nav-image" />
+    </nav>
+  </header>
 
-header, footer {
-  background-color: #1e1e1e;
-  padding: 10px;
-}
+  <main>
+    <section class="account-summary">
+      <img src="images/solde-depot.png" alt="Solde Compte de Dépôt" class="full-width" />
+    </section>
 
-.top-nav, .bottom-nav {
-  display: flex;
-  justify-content: space-around;
-  font-size: 14px;
-}
+    <section class="actions">
+      <img src="images/actions-rib-cartes-wero-budget.png" alt="Actions RIB Cartes Wero Budget" class="full-width" />
+    </section>
 
-.tab, .nav-item {
-  padding: 8px 12px;
-  color: #ccc;
-}
+    <section class="transactions">
+      <img src="images/transactions-recentes.png" alt="Transactions récentes" class="full-width" />
+    </section>
+  </main>
 
-.tab.active, .nav-item.active {
-  color: #00ffff;
-  border-bottom: 2px solid #00ffff;
-}
+  <footer>
+    <nav class="bottom-nav">
+      <img src="images/menu-bas.png" alt="Menu bas" class="nav-image" />
+    </nav>
+  </footer>
+</body>
+</html>
 
-.account-summary {
-  padding: 20px;
-  border-bottom: 1px solid #333;
-}
-
-.account-number {
-  font-size: 14px;
-  color: #aaa;
-}
-
-.balance {
-  font-size: 16px;
-  margin: 5px 0;
-}
-
-.green {
-  color: #00ff99;
-}
-
-.actions {
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-  background-color: #1a1a1a;
-}
-
-.action-button {
-  background-color: #2a2a2a;
-  padding: 10px 15px;
-  border-radius: 8px;
-  color: white;
-  font-size: 13px;
-}
-
-.transactions {
-  padding: 20px;
-}
-
-.transactions ul {
-  list-style: none;
-  padding: 0;
-}
-
-.transactions li {
-  margin-bottom: 10px;
-  font-size: 14px;
-  border-bottom: 1px solid #333;
-  padding-bottom: 5px;
-}
