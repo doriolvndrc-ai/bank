@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compte de Dépôt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section class="image-block">
+      <img src="images/depot1.png" alt="Dépôt 1" class="full-image" />
+    </section>
 
+    <section class="image-block">
+      <img src="images/depot2.png" alt="Dépôt 2" class="full-image" />
+    </section>
+
+    <section class="image-block">
+      <img src="images/depot3.png" alt="Dépôt 3" class="full-image" />
+    </section>
+  </main>
+</body>
+</html>
