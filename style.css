@@ -12,31 +12,84 @@ body {
   color: #fff;
 }
 
-.nav-image {
-  width: 100%;
-  display: block;
+.top-nav, .bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  padding: 10px 0;
+  border-bottom: 1px solid #222;
 }
 
-.full-width {
-  width: 100%;
-  display: block;
-  border-radius: 12px;
+.tab, .nav-item {
+  color: #ccc;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.tab.active, .nav-item.active {
+  color: #00ffff;
+  border-bottom: 2px solid #00ffff;
 }
 
 .card {
   background-color: #1a1a1a;
   margin: 15px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 16px;
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
 }
 
-.top-nav, .bottom-nav {
-  background-color: #000;
+.account-number {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.balance {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.green {
+  color: #00ff99;
+}
+
+.red {
+  color: #ff4444;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.action-button {
+  background-color: #2a2a2a;
+  padding: 10px 15px;
+  border-radius: 12px;
+  color: white;
+  font-size: 13px;
+  margin: 5px;
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.transactions ul {
+  list-style: none;
   padding: 0;
 }
 
-main {
-  padding: 0;
+.transactions li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
 }
 
+.for-you .promo {
+  background-color: #2a2a2a;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 14px;
+}
