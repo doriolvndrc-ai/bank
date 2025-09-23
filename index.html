@@ -3,72 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Compte Principal</title>
+  <title>Interface Bancaire</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="greeting">Bonsoir Valentin</div>
-    <nav class="tab-bar">
-      <button class="tab active">Comptes</button>
-      <button class="tab">Épargne</button>
-      <button class="tab">Crédits</button>
-      <button class="tab">Assurances</button>
-    </nav>
-  </header>
-
   <main>
-    <section class="card">
-  <img src="images/compte-depot.png" alt="Compte" class="depot-image" />
-</section>
-
-    <section class="card actions">
-      <div class="action-button">RIB</div>
-      <div class="action-button">Cartes</div>
-      <div class="action-button">Wero</div>
-      <div class="action-button">Budget</div>
+    <section class="image-block">
+      <img src="images/ecran1.png" alt="Écran 1" class="full-image" />
     </section>
 
-    <section class="card transactions">
-      <h3>Transactions récentes</h3>
-      <ul>
-        <li><span class="red">-10,00 €</span> • BETCLIC Bordeaux • 19/09</li>
-        <li><span class="red">-10,00 €</span> • BETCLIC Bordeaux • 19/09</li>
-        <li><span class="red">-21,97 €</span> • PULSE 07595206052 • 19/09</li>
-        <li><span class="green">+10,00 €</span> • DE M. DORIOL VALENTIN • 20/09</li>
-      </ul>
-    </section>
-
-    <section class="card summary">
-      <h3>Total de mes comptes</h3>
-      <p class="balance"><span class="green">1,16 €</span></p>
-    </section>
-
-    <section class="card for-you">
-      <h3>Pour vous</h3>
-      <div class="promo">Gérez facilement vos bénéficiaires de virement</div>
-      <div class="promo">Maîtrisez vos dépenses</div>
+    <section class="image-block">
+      <img src="images/ecran2.png" alt="Écran 2" class="full-image" />
     </section>
   </main>
-
-  <footer>
-    <nav class="bottom-nav">
-      <span class="nav-item active">Accueil</span>
-      <span class="nav-item">Carte</span>
-      <span class="nav-item">Contact</span>
-      <span class="nav-item">Virement</span>
-      <span class="nav-item">Menu</span>
-    </nav>
-  </footer>
-
-  <script>
-    const tabs = document.querySelectorAll('.tab');
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        tabs.forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-      });
-    });
-  </script>
 </body>
 </html>
