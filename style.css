@@ -12,14 +12,15 @@ main {
 }
 
 /* === Bloc image === */
+.image-container,
 .image-block {
   width: 100%;
   max-width: 430px; /* largeur iPhone 14 */
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
-/* === Image pleine largeur === */
 .full-image {
   width: 100%;
   height: auto;
@@ -27,4 +28,14 @@ main {
   margin: 0;
   padding: 0;
   border: none;
+}
+
+/* === Zone cliquable sur "Épargne" === */
+.click-zone {
+  position: absolute;
+  top: 55px;     /* ajuste selon la position exacte du mot "Épargne" */
+  left: 25%;
+  width: 25%;
+  height: 40px;
+  z-index: 2;
 }
